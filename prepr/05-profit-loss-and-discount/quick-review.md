@@ -1,37 +1,41 @@
-# Quick Review: Profit, Loss and Discount 🔴
-
-### Basic Profit/Loss %
-**Formulas**:
-Profit = SP - CP
-Loss = CP - SP
-Profit/Loss % = (Profit or Loss / CP) * 100
-**Trick**: Always calculate % on CP unless stated otherwise.
+# ⚡ Quick Review: Profit, Loss & Discount 🔴
 
 ---
-### CP/SP Relations
-**Formulas**:
-SP = CP * (100 + Profit%)/100
-SP = CP * (100 - Loss%)/100
-**Trick**: If SP of x articles = CP of y articles, Profit% = (y-x)/x * 100.
+
+## Core Formulas
+```
+Profit = SP - CP    |    Loss = CP - SP
+Profit% = (Profit/CP) × 100    |    Loss% = (Loss/CP) × 100
+SP = CP × (100 ± P/L%) / 100    |    CP = SP × 100 / (100 ± P/L%)
+```
+
+## SP of x articles = CP of y articles
+- y > x → **Profit%** = (y-x)/x × 100
+- y < x → **Loss%** = (x-y)/x × 100
+
+## Same SP, Same % (one P, one L) → Always **NET LOSS** = x²/100 %
 
 ---
-### Successive Discount
-**Formulas**:
-Net discount for x% and y% = x + y - (xy/100)
-**Trick**: Calculate on 100. 100 -> -x% -> -y%.
 
----
-### Marked Price Problems
-**Formulas**:
-SP = MP - Discount
-Discount% = (Discount / MP) * 100
+## Discount
+```
+Discount = MP - SP    |    Discount% = (Discount/MP) × 100
+SP = MP × (100-D%) / 100
+```
+
+## Successive Discounts
+```
+Net = d₁ + d₂ - (d₁×d₂/100)
+SP = MP × (100-d₁)/100 × (100-d₂)/100
+```
+
+## Golden Ratio (Marked Price)
+```
 MP/CP = (100 + Profit%) / (100 - Discount%)
-**Trick**: Use the MP/CP ratio formula for lightning fast answers.
+```
 
----
-### Dishonest Dealer
-**Formulas**:
-Profit % = (Error / (True Value - Error)) * 100
-**Trick**: Think of it as: Goods given vs Goods paid for.
-
----
+## Dishonest Dealer
+```
+Profit% = (True - False) / False × 100 = Error / Actual × 100
+With markup: [(100+x)/100 × True/False - 1] × 100
+```
