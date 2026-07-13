@@ -1,59 +1,96 @@
-# Quick Review: Number System 🔴
+# ⚡ Quick Review: Number System 🔴
 
-### Divisibility Rules
-**Formulas**:
-- 2: Last digit is even
-- 3: Sum of digits is divisible by 3
-- 4: Last two digits divisible by 4
-- 5: Last digit is 0 or 5
-- 8: Last 3 digits divisible by 8
-- 9: Sum of digits is divisible by 9
-- 11: Difference between sum of odd placed digits and even placed digits is 0 or multiple of 11.
-**Trick**: To check divisibility by composite numbers (like 12), check divisibility for co-prime factors (3 and 4).
+> Use this file for **last-minute revision** before your exam. All key formulas and tricks in one place.
 
 ---
-### LCM & HCF
-**Formulas**:
-- Product of two numbers = LCM * HCF
-- LCM of fractions = LCM(Numerators) / HCF(Denominators)
-- HCF of fractions = HCF(Numerators) / LCM(Denominators)
-**Trick**: - To find largest number that divides A, B, C leaving remainders r1, r2, r3: Find HCF of (A-r1, B-r2, C-r3).
-- To find smallest number divisible by A, B, C leaving remainder r in each case: Find LCM(A,B,C) + r.
+
+## Divisibility Rules
+| Divisor | Rule |
+|---------|------|
+| 2 | Last digit even |
+| 3 | Digit sum divisible by 3 |
+| 4 | Last 2 digits divisible by 4 |
+| 5 | Last digit 0 or 5 |
+| 6 | Div by both 2 AND 3 |
+| 7 | Double last digit, subtract from rest |
+| 8 | Last 3 digits divisible by 8 |
+| 9 | Digit sum divisible by 9 |
+| 11 | (Sum odd-position digits) - (Sum even-position digits) = 0 or ×11 |
+| 12 | Div by both 3 AND 4 |
+
+**Key Trick**: abcabc = abc × 1001 = abc × 7 × 11 × 13
 
 ---
-### Prime Numbers, Factors, Multiples
-**Formulas**:
-- Prime number has exactly two factors: 1 and itself.
-- Co-primes have HCF = 1.
-**Trick**: To check if N is prime, find integer k > √N. Check divisibility of N by all prime numbers <= k.
+
+## LCM & HCF
+- **Product of 2 numbers = LCM × HCF**
+- HCF: Take **lowest** powers of common primes
+- LCM: Take **highest** powers of all primes
+- LCM of fractions = LCM(num) / HCF(den)
+- HCF of fractions = HCF(num) / LCM(den)
+
+**Word Problem Patterns**:
+| Pattern | Formula |
+|---------|---------|
+| Largest no. dividing A,B,C leaving same remainder | HCF of \|A-B\|, \|B-C\|, \|A-C\| |
+| Largest dividing A,B,C leaving r₁,r₂,r₃ | HCF of (A-r₁), (B-r₂), (C-r₃) |
+| Smallest divisible by A,B,C | LCM(A,B,C) |
+| Smallest div by A,B,C leaving remainder r | LCM + r |
+| Bells ringing together | LCM of intervals |
 
 ---
-### Remainder Theorem Basics
-**Formulas**:
-- Dividend = (Divisor × Quotient) + Remainder
-- (a * b) % n = [(a % n) * (b % n)] % n
-- Fermat's Little Theorem: a^(p-1) ≡ 1 (mod p) where p is prime.
-**Trick**: Use negative remainders to simplify calculations. e.g., 34 % 7 can be written as -1.
+
+## Prime Numbers & Factors
+- 2 is the only even prime
+- Every prime > 3 is of form 6k ± 1
+- Check prime: test divisibility by all primes ≤ √N
+
+**Factor Formulas (N = p^a × q^b × r^c)**:
+| What | Formula |
+|------|---------|
+| Number of factors | (a+1)(b+1)(c+1) |
+| Sum of factors | [(p^(a+1)-1)/(p-1)] × ... |
+| Product of factors | N^(total/2) |
+| Odd factors | Skip 2's power, apply formula |
+| Even factors | Total - Odd |
+| Perfect square factors | (⌊a/2⌋+1)(⌊b/2⌋+1)... |
+
+**Key**: Perfect squares have ODD number of factors
 
 ---
-### Unit Digit & Last Digit
-**Formulas**:
-- Cyclicity of 2, 3, 7, 8 is 4.
-- Cyclicity of 4, 9 is 2.
-- Cyclicity of 0, 1, 5, 6 is 1.
-**Trick**: For x^y, find y % 4. If y%4 == 0, use power 4.
+
+## Remainder Theorem
+- **(a×b) mod n = [(a mod n) × (b mod n)] mod n**
+- Same for +, -
+- **Fermat's**: a^(p-1) ≡ 1 (mod p) when p is prime
+- 10^n mod 9 = 1 (always)
+- 10^n mod 11 = 1 (even n), 10 (odd n)
+
+**Key Trick**: Use negative remainders → 29 mod 5 = -1
 
 ---
-### Number of Factors
-**Formulas**:
-If N = p^a * q^b * r^c..., then Number of factors = (a+1)(b+1)(c+1)...
-**Trick**: To find sum of factors: [ (p^(a+1)-1)/(p-1) ] * [ (q^(b+1)-1)/(q-1) ] ...
+
+## Unit Digit / Cyclicity
+
+| Cyclicity | Digits |
+|-----------|--------|
+| 1 (always same) | 0, 1, 5, 6 |
+| 2 (even/odd) | 4, 9 |
+| 4 (four-cycle) | 2, 3, 7, 8 |
+
+**Cycles**: 2→{2,4,8,6}, 3→{3,9,7,1}, 7→{7,9,3,1}, 8→{8,4,2,6}
+
+**Method**: Unit digit of a^n → (unit digit of a)^(n mod cyclicity)
+
+**Key**: n! for n ≥ 5 always has unit digit **0**
 
 ---
-### Base Conversion
-**Formulas**:
-Decimal to Binary: Keep dividing by 2 and note remainders bottom to top.
-Binary to Decimal: Multiply bits by powers of 2 from right to left.
-**Trick**: Memorize powers of 2 up to 1024 for quick conversion.
 
----
+## Base Conversion
+- Decimal → Binary: Divide by 2, remainders bottom-to-top
+- Binary → Decimal: Multiply by 2^position, sum up
+- Binary → Octal: Group 3 bits
+- Binary → Hex: Group 4 bits
+- Largest n-digit number in base b = b^n - 1
+
+**Powers of 2**: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024
