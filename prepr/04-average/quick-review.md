@@ -1,27 +1,50 @@
-# Quick Review: Average 🔴
-
-### Simple Average
-**Formulas**:
-Average = Sum of observations / Number of observations
-**Trick**: If every observation is increased by x, the new average also increases by x.
+# ⚡ Quick Review: Average 🔴
 
 ---
-### Weighted Average
-**Formulas**:
-Weighted Avg = (n1*A1 + n2*A2) / (n1 + n2)
-**Trick**: Can use mixture & alligation method to solve quickly.
+
+## Core Formula
+```
+Average = Sum / Count    |    Sum = Average × Count
+```
+
+## Sequences
+| Sequence | Average |
+|----------|---------|
+| First n natural numbers | (n+1)/2 |
+| First n even numbers | n+1 |
+| First n odd numbers | n |
+| Consecutive a to b | (a+b)/2 |
+
+## Properties
+- Every obs ± k → Avg ± k | Every obs × k → Avg × k
 
 ---
-### Average Speed Problems
-**Formulas**:
-Average Speed = Total Distance / Total Time
-If distance is same (A to B and B to A with speeds x and y): Avg Speed = 2xy / (x+y)
-**Trick**: Never average the speeds directly if time taken is different.
+
+## Average Speed
+| Case | Formula |
+|------|---------|
+| **Same distance** (most common) | **2xy/(x+y)** |
+| Same time | (x+y)/2 |
+| Different d₁, d₂ | (d₁+d₂) / (d₁/v₁ + d₂/v₂) |
+| Three speeds, same distance | 3xyz / (xy+yz+xz) |
+
+⚠️ **Never average speeds directly!**
 
 ---
-### Change in Average
-**Formulas**:
-New Value = Old Average + Number of obs * Change in average
-**Trick**: If a person is replaced and avg increases by x, New person = Old person + (n * x).
+
+## Change in Average
+| Action | Formula |
+|--------|---------|
+| **New member added** | Value = New Avg + n × (New - Old avg) |
+| **Member removed** | Value = Old Avg - (n-1) × (New - Old avg) |
+| **Replacement** | New = Old + n × change |
+| **Wrong entry** | Correct avg = Old avg + (Correct - Wrong)/n |
+| **Cricket** | Runs = New avg + (innings-1) × increase |
 
 ---
+
+## Weighted Average
+```
+= (n₁A₁ + n₂A₂) / (n₁ + n₂)
+```
+Alligation shortcut (2 groups): n₁/n₂ = (A₂-Aw)/(Aw-A₁)

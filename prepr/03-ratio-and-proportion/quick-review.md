@@ -1,22 +1,35 @@
-# Quick Review: Ratio and Proportion 🔴
-
-### Basic Ratio Simplification
-**Formulas**:
-A ratio a:b is a fraction a/b.
-**Trick**: If A:B = m:n and B:C = p:q, then A:B:C = (m*p) : (n*p) : (n*q).
+# ⚡ Quick Review: Ratio & Proportion 🔴
 
 ---
-### Dividing a number in given ratio
-**Formulas**:
-If sum S is divided into a:b, then parts are S * (a/(a+b)) and S * (b/(a+b)).
-**Trick**: Find the value of 1 'unit' by dividing total sum by total ratio parts.
+
+## Ratio Basics
+- a:b = a/b | Simplify by dividing by HCF
+- **Same units required** before forming ratio
+- Duplicate: a²:b² | Sub-duplicate: √a:√b
+- Compound ratio of a:b and c:d = ac:bd
+
+## Combining Ratios
+- A:B = m:n, B:C = p:q → A:B:C = mp : np : nq (make B common)
+
+## Dividing in Ratio
+```
+Part = Total × (its ratio term) / (sum of all ratio terms)
+Difference = Total × (difference of terms) / (sum of terms)
+```
 
 ---
-### Proportion
-**Formulas**:
-If a:b :: c:d, then a*d = b*c (Product of extremes = Product of means).
-Third proportion of a, b is b^2/a.
-Mean proportion of a, b is √(a*b).
-**Trick**: Direct variation: a1/b1 = a2/b2. Inverse variation: a1*b1 = a2*b2.
 
----
+## Proportion: a:b :: c:d → ad = bc
+
+| Type | Formula |
+|------|---------|
+| Fourth proportional of a,b,c | d = bc/a |
+| Mean proportional of a,c | b = √(ac) |
+| Third proportional of a,b | c = b²/a |
+
+## Variation
+- **Direct**: a₁/b₁ = a₂/b₂ (same direction)
+- **Inverse**: a₁×b₁ = a₂×b₂ (opposite direction)
+
+## Componendo-Dividendo
+If a/b = c/d → **(a+b)/(a-b) = (c+d)/(c-d)**
