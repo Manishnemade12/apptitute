@@ -1,11 +1,17 @@
-# AP and GP
+# AP and GP — Combined Reference 🟡/🟢
 
-## Formulas
-- Standard formulas for AP and GP (To be updated)
+## AP Formulas
+```
+aₙ = a + (n-1)d    |    Sₙ = n/2 × [2a + (n-1)d]    |    Sₙ = n/2(a + l)
+```
 
-## Tricks & Shortcuts
-> 💡 Standard trick for AP and GP (To be updated)
+## GP Formulas
+```
+aₙ = arⁿ⁻¹    |    Sₙ = a(rⁿ-1)/(r-1)    |    S∞ = a/(1-r) [|r|<1]
+```
 
-## Examples
-**Q**: Example question for AP and GP
-**Ans**: Example answer.
+## Quick Identities
+- AP mean: b = (a+c)/2 | GP mean: b = √(ac)
+- Sum of first n: n(n+1)/2
+- Sum of squares: n(n+1)(2n+1)/6
+- Sum of cubes: [n(n+1)/2]²
