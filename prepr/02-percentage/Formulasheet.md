@@ -1,18 +1,18 @@
 # Percentage Formula Sheet (Aptitude)
 
-> **Core formulas for TCS, Infosys, Accenture, Capgemini, Cognizant, Wipro, etc.**
-> These formulas are enough to solve the vast majority of percentage questions.
+> **For TCS, Infosys, Accenture, Capgemini, Cognizant, Wipro, Tech Mahindra, HCL and similar aptitude exams.**
+>
+> These are the core percentage formulas required to solve the majority of aptitude questions.
 
 ---
 
 # 1. Basic Percentage
 
-**Percentage**
+### Formula
 
-\[
-\boxed{\text{Percentage}=\frac{\text{Part}}{\text{Whole}}\times100}
-\]
+`Percentage = (Part / Whole) × 100`
 
+**Where:**
 - **Part** = Given value
 - **Whole** = Total value
 
@@ -20,33 +20,33 @@
 
 # 2. Find Part
 
-\[
-\boxed{\text{Part}=\frac{\text{Percentage}\times\text{Whole}}{100}}
-\]
+### Formula
+
+`Part = (Percentage × Whole) / 100`
 
 ---
 
 # 3. Find Whole
 
-\[
-\boxed{\text{Whole}=\frac{\text{Part}\times100}{\text{Percentage}}}
-\]
+### Formula
+
+`Whole = (Part × 100) / Percentage`
 
 ---
 
 # 4. Percentage Increase
 
-\[
-\boxed{\text{Increase \%}=\frac{\text{New}-\text{Old}}{\text{Old}}\times100}
-\]
+### Formula
+
+`Increase % = [(New − Old) / Old] × 100`
 
 ---
 
 # 5. Percentage Decrease
 
-\[
-\boxed{\text{Decrease \%}=\frac{\text{Old}-\text{New}}{\text{Old}}\times100}
-\]
+### Formula
+
+`Decrease % = [(Old − New) / Old] × 100`
 
 ---
 
@@ -54,91 +54,78 @@
 
 ### After Increase by x%
 
-\[
-\boxed{\text{New}=\text{Old}\times\frac{100+x}{100}}
-\]
+`New = Old × (100 + x) / 100`
 
 ### After Decrease by x%
 
-\[
-\boxed{\text{New}=\text{Old}\times\frac{100-x}{100}}
-\]
+`New = Old × (100 − x) / 100`
 
 ---
 
 # 7. Old Value
 
-### If increased by x%
+### If Increased by x%
 
-\[
-\boxed{\text{Old}=\text{New}\times\frac{100}{100+x}}
-\]
+`Old = New × 100 / (100 + x)`
 
-### If decreased by x%
+### If Decreased by x%
 
-\[
-\boxed{\text{Old}=\text{New}\times\frac{100}{100-x}}
-\]
+`Old = New × 100 / (100 − x)`
 
 ---
 
 # 8. Successive Percentage Change
 
-\[
-\boxed{\text{Net \%}=a+b\pm\frac{ab}{100}}
-\]
+### Formula
+
+`Net % = a + b ± (ab / 100)`
 
 ### Rules
 
-- Increase + Increase → **+ab/100**
-- Decrease + Decrease → **Overall decrease**
-- Increase + Decrease → **−ab/100**
+- Increase + Increase → `+ab/100`
+- Decrease + Decrease → Overall decrease
+- Increase + Decrease → `−ab/100`
 
 ---
 
 # 9. Fixed Increase / Fixed Decrease
 
-> Use only when the increase/decrease is a **fixed amount**, **not a percentage**.
+> Use these formulas **only when the increase or decrease is a fixed amount (₹, kg, people, etc.)**, **not a percentage**.
 
 ### Fixed Increase
 
-\[
-\boxed{\text{New}=\text{Old}+n\times\text{Increase}}
-\]
+`New = Old + (n × Increase)`
 
 ### Fixed Decrease
 
-\[
-\boxed{\text{New}=\text{Old}-n\times\text{Decrease}}
-\]
+`New = Old − (n × Decrease)`
+
+Where:
+- `n` = Number of years/periods
 
 ---
 
 # 10. Expenditure (Price × Consumption)
 
-\[
-\boxed{\text{Expenditure}=\text{Price}\times\text{Consumption}}
-\]
+### Formula
 
-### If Price increases by x%
+`Expenditure = Price × Consumption`
 
-Required decrease in Consumption:
+### If Price Increases by x%
 
-\[
-\boxed{\frac{x}{100+x}\times100}
-\]
+Required Decrease in Consumption:
 
-### If Price decreases by x%
+`Consumption Decrease % = [x / (100 + x)] × 100`
 
-Required increase in Consumption:
+### If Price Decreases by x%
 
-\[
-\boxed{\frac{x}{100-x}\times100}
-\]
+Required Increase in Consumption:
+
+`Consumption Increase % = [x / (100 − x)] × 100`
 
 ---
 
-# 11. Percentage ↔ Fraction
+# 11. Percentage to Fraction
 
 | Percentage | Fraction |
 |------------|----------|
@@ -157,24 +144,24 @@ Required increase in Consumption:
 
 ---
 
-# Quick Revision
+# ⭐ Quick Revision
 
-1. \(\boxed{\text{Percentage}=\frac{\text{Part}}{\text{Whole}}\times100}\)
+1. `Percentage = (Part / Whole) × 100`
 
-2. \(\boxed{\text{Part}=\frac{\%\times\text{Whole}}{100}}\)
+2. `Part = (Percentage × Whole) / 100`
 
-3. \(\boxed{\text{Whole}=\frac{\text{Part}\times100}{\%}}\)
+3. `Whole = (Part × 100) / Percentage`
 
-4. \(\boxed{\text{Increase \%}=\frac{\text{New}-\text{Old}}{\text{Old}}\times100}\)
+4. `Increase % = [(New − Old) / Old] × 100`
 
-5. \(\boxed{\text{Decrease \%}=\frac{\text{Old}-\text{New}}{\text{Old}}\times100}\)
+5. `Decrease % = [(Old − New) / Old] × 100`
 
-6. \(\boxed{\text{New}=\text{Old}\times\frac{100\pm x}{100}}\)
+6. `New = Old × (100 ± x) / 100`
 
-7. \(\boxed{\text{Old}=\text{New}\times\frac{100}{100\pm x}}\)
+7. `Old = New × 100 / (100 ± x)`
 
-8. \(\boxed{\text{Net \%}=a+b\pm\frac{ab}{100}}\)
+8. `Net % = a + b ± (ab / 100)`
 
-9. \(\boxed{\text{Expenditure}=\text{Price}\times\text{Consumption}}\)
+9. `Expenditure = Price × Consumption`
 
-10. \(\boxed{\text{Consumption Change}=\frac{x}{100\pm x}\times100}\)
+10. `Consumption Change % = [x / (100 ± x)] × 100`
