@@ -1,8 +1,8 @@
 # Percentage Formula Sheet (Aptitude)
 
-> **For TCS, Infosys, Accenture, Capgemini, Cognizant, Wipro, Tech Mahindra, HCL and similar aptitude exams.**
+> **For TCS, Infosys, Accenture, Capgemini, Cognizant, Wipro, Tech Mahindra and similar aptitude exams.**
 >
-> These are the core percentage formulas required to solve the majority of aptitude questions.
+> These are the core formulas required to solve the majority of percentage questions.
 
 ---
 
@@ -12,9 +12,15 @@
 
 `Percentage = (Part / Whole) × 100`
 
-**Where:**
+**Where**
 - **Part** = Given value
 - **Whole** = Total value
+
+### Example
+
+20 out of 80
+
+`Percentage = (20 / 80) × 100 = 25%`
 
 ---
 
@@ -24,6 +30,12 @@
 
 `Part = (Percentage × Whole) / 100`
 
+### Example
+
+20% of 500
+
+`Part = (20 × 500) / 100 = 100`
+
 ---
 
 # 3. Find Whole
@@ -31,6 +43,12 @@
 ### Formula
 
 `Whole = (Part × 100) / Percentage`
+
+### Example
+
+40 is 20% of ?
+
+`Whole = (40 × 100) / 20 = 200`
 
 ---
 
@@ -40,6 +58,12 @@
 
 `Increase % = [(New − Old) / Old] × 100`
 
+### Example
+
+100 → 125
+
+`Increase = [(125 − 100) / 100] × 100 = 25%`
+
 ---
 
 # 5. Percentage Decrease
@@ -47,6 +71,12 @@
 ### Formula
 
 `Decrease % = [(Old − New) / Old] × 100`
+
+### Example
+
+200 → 150
+
+`Decrease = [(200 − 150) / 200] × 100 = 25%`
 
 ---
 
@@ -56,9 +86,21 @@
 
 `New = Old × (100 + x) / 100`
 
+### Example
+
+₹500 increased by 20%
+
+`New = 500 × 120 / 100 = ₹600`
+
 ### After Decrease by x%
 
 `New = Old × (100 − x) / 100`
+
+### Example
+
+₹500 decreased by 20%
+
+`New = 500 × 80 / 100 = ₹400`
 
 ---
 
@@ -68,9 +110,21 @@
 
 `Old = New × 100 / (100 + x)`
 
+### Example
+
+New Value = ₹600 after 20% increase
+
+`Old = 600 × 100 / 120 = ₹500`
+
 ### If Decreased by x%
 
 `Old = New × 100 / (100 − x)`
+
+### Example
+
+New Value = ₹400 after 20% decrease
+
+`Old = 400 × 100 / 80 = ₹500`
 
 ---
 
@@ -83,14 +137,42 @@
 ### Rules
 
 - Increase + Increase → `+ab/100`
-- Decrease + Decrease → Overall decrease
 - Increase + Decrease → `−ab/100`
+- Decrease + Decrease → Overall decrease
+
+### Examples
+
+**+20%, +10%**
+
+`20 + 10 + (20×10)/100`
+
+`= 20 + 10 + 2`
+
+`= 32% Increase`
+
+---
+
+**+20%, −10%**
+
+`20 − 10 − (20×10)/100`
+
+`= 20 − 10 − 2`
+
+`= 8% Increase`
+
+---
+
+**−20%, −10%**
+
+`20 + 10 + (20×10)/100`
+
+`= 32% Decrease`
 
 ---
 
 # 9. Fixed Increase / Fixed Decrease
 
-> Use these formulas **only when the increase or decrease is a fixed amount (₹, kg, people, etc.)**, **not a percentage**.
+> Use only when increase/decrease is a **fixed amount**, **not a percentage**.
 
 ### Fixed Increase
 
@@ -100,8 +182,15 @@
 
 `New = Old − (n × Decrease)`
 
-Where:
-- `n` = Number of years/periods
+### Example
+
+Salary = ₹50,000
+
+Increase = ₹2,000 per year
+
+After 5 years
+
+`New = 50,000 + (5 × 2,000) = ₹60,000`
 
 ---
 
@@ -113,15 +202,27 @@ Where:
 
 ### If Price Increases by x%
 
-Required Decrease in Consumption:
+Required Consumption Decrease
 
 `Consumption Decrease % = [x / (100 + x)] × 100`
 
+### Example
+
+Price increases by 25%
+
+`Consumption Decrease = (25 / 125) × 100 = 20%`
+
 ### If Price Decreases by x%
 
-Required Increase in Consumption:
+Required Consumption Increase
 
 `Consumption Increase % = [x / (100 − x)] × 100`
+
+### Example
+
+Price decreases by 20%
+
+`Consumption Increase = (20 / 80) × 100 = 25%`
 
 ---
 
@@ -144,7 +245,7 @@ Required Increase in Consumption:
 
 ---
 
-# ⭐ Quick Revision
+# ⭐ Golden Formulas (Quick Revision)
 
 1. `Percentage = (Part / Whole) × 100`
 
