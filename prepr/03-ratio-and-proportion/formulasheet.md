@@ -1,6 +1,6 @@
 # Ratio & Proportion – Complete Formula Sheet (Aptitude)
 
-> Covers almost all common **Ratio & Proportion** questions asked in **TCS, Infosys, Accenture, Capgemini, Cognizant, Wipro, SSC, Banking, and other Aptitude exams.**
+> Covers almost all Ratio & Proportion questions asked in TCS, Infosys, Accenture, Capgemini, Cognizant, Wipro, SSC, Banking, Railways, and other aptitude exams.
 
 ---
 
@@ -8,59 +8,45 @@
 
 ### Formula
 
-\[
-\boxed{\text{Ratio}=\text{First Quantity}:\text{Second Quantity}}
-\]
+```text
+Ratio = First Quantity : Second Quantity
+```
 
 ### Example
 
-20 : 30
+```text
+20 : 30 = 2 : 3
+```
 
-= 2 : 3
-
-✅ **Always simplify the ratio to its lowest form.**
+✅ Always reduce the ratio to its lowest form.
 
 ---
 
 # 2. Actual Values from Ratio ⭐⭐⭐⭐⭐
 
-If
+### Given
 
-\[
-A:B=a:b
-\]
+```text
+A : B = a : b
+```
 
-Then
+### Then
 
-\[
-\boxed{A=ax}
-\]
+```text
+A = ax
+B = bx
 
-\[
-\boxed{B=bx}
-\]
-
-where,
-
-- **x = Common Multiplier**
+where x = Common Multiplier
+```
 
 ### Example
 
-If
+```text
+A : B = 4 : 7
 
-\[
-A:B=4:7
-\]
-
-Then
-
-\[
-A=4x
-\]
-
-\[
-B=7x
-\]
+A = 4x
+B = 7x
+```
 
 ---
 
@@ -68,29 +54,24 @@ B=7x
 
 If the **Total** is given,
 
-\[
-\boxed{x=\frac{\text{Total}}{\text{Sum of Ratio Parts}}}
-\]
+### Formula
+
+```text
+x = Total / (Sum of Ratio Parts)
+```
 
 ### Example
 
+```text
 Ratio = 3 : 5
-
 Total = 64
 
-\[
-x=\frac{64}{3+5}=8
-\]
+x = 64 / (3 + 5)
+x = 8
 
-Therefore,
-
-\[
-A=3\times8=24
-\]
-
-\[
-B=5\times8=40
-\]
+A = 3 × 8 = 24
+B = 5 × 8 = 40
+```
 
 ---
 
@@ -98,230 +79,239 @@ B=5\times8=40
 
 If
 
-- Total = **T**
-- Ratio = **a : b**
-
-Then
+```text
+Total = T
+Ratio = a : b
+```
 
 ### First Part
 
-\[
-\boxed{\frac{T\times a}{a+b}}
-\]
+```text
+(T × a) / (a + b)
+```
 
 ### Second Part
 
-\[
-\boxed{\frac{T\times b}{a+b}}
-\]
+```text
+(T × b) / (a + b)
+```
 
 ### Example
 
+```text
 Divide ₹360 in the ratio 2 : 7
 
 First Part
-
-\[
-360\times\frac{2}{9}=80
-\]
+= (360 × 2) / 9
+= 80
 
 Second Part
-
-\[
-360\times\frac{7}{9}=280
-\]
+= (360 × 7) / 9
+= 280
+```
 
 ---
 
 # 5. Compound Ratio ⭐⭐⭐⭐
 
+### Formula
+
 If
 
-\[
-a:b
-\]
+```text
+a : b
+```
 
 and
 
-\[
-c:d
-\]
+```text
+c : d
+```
 
 Then
 
-\[
-\boxed{\text{Compound Ratio}=ac:bd}
-\]
+```text
+Compound Ratio = (a × c) : (b × d)
+```
 
 ### Example
 
+```text
 2 : 3
-
-and
-
 4 : 5
 
 Compound Ratio
 
-\[
-=8:15
-\]
+= 8 : 15
+```
 
 ---
 
 # 6. Proportion ⭐⭐⭐⭐⭐
 
-If
+### Formula
 
-\[
-a:b=c:d
-\]
+```text
+a : b = c : d
+```
 
 Then
 
-\[
-\boxed{ad=bc}
-\]
+```text
+ad = bc
+```
 
-> ⭐ This is the **most important property** of Proportion.
+> ⭐ This is the most important property of Proportion.
 
 ### Example
 
-\[
-2:5=x:20
-\]
+```text
+2 : 5 = x : 20
 
-\[
-2\times20=5x
-\]
+2 × 20 = 5x
 
-\[
-x=8
-\]
+x = 8
+```
 
 ---
 
 # 7. Direct Proportion ⭐⭐⭐⭐⭐
 
-When one quantity **increases**, the other also **increases**.
+When one quantity increases, the other also increases.
 
-\[
-A\propto B
-\]
+### Formula
 
-\[
-\boxed{\frac{A}{B}=\text{Constant}}
-\]
+```text
+A / B = Constant
+```
 
 or
 
-\[
-\boxed{\frac{A_1}{B_1}=\frac{A_2}{B_2}}
-\]
+```text
+A₁ / B₁ = A₂ / B₂
+```
 
 ### Examples
 
-- Workers ↑ → Work Done ↑
-- Distance ↑ → Cost ↑ (same rate)
+```text
+Workers ↑ → Work Done ↑
+
+Distance ↑ → Cost ↑ (same rate)
+
+Quantity ↑ → Price ↑ (same rate)
+```
 
 ---
 
 # 8. Inverse Proportion ⭐⭐⭐⭐⭐
 
-When one quantity **increases**, the other **decreases**.
+When one quantity increases, the other decreases.
 
-\[
-\boxed{A\times B=\text{Constant}}
-\]
+### Formula
+
+```text
+A × B = Constant
+```
 
 or
 
-\[
-\boxed{A_1\times B_1=A_2\times B_2}
-\]
+```text
+A₁ × B₁ = A₂ × B₂
+```
 
 ### Examples
 
-- Workers ↑ → Days ↓
-- Speed ↑ → Time ↓
+```text
+Workers ↑ → Days ↓
+
+Speed ↑ → Time ↓
+
+More taps ↑ → Time to fill tank ↓
+```
 
 ---
 
 # 9. Fourth Proportional ⭐⭐⭐⭐
 
+### Formula
+
 If
 
-\[
-a:b=c:x
-\]
+```text
+a : b = c : x
+```
 
 Then
 
-\[
-\boxed{x=\frac{b\times c}{a}}
-\]
+```text
+x = (b × c) / a
+```
 
 ### Example
 
-\[
-2:5=8:x
-\]
+```text
+2 : 5 = 8 : x
 
-\[
-x=\frac{5\times8}{2}=20
-\]
+x = (5 × 8) / 2
+
+x = 20
+```
 
 ---
 
 # 10. Third Proportional ⭐⭐⭐
 
+### Formula
+
 If
 
-\[
-a:b=b:x
-\]
+```text
+a : b = b : x
+```
 
 Then
 
-\[
-\boxed{x=\frac{b^2}{a}}
-\]
+```text
+x = b² / a
+```
 
 ### Example
 
-\[
-2:4=4:x
-\]
+```text
+2 : 4 = 4 : x
 
-\[
-x=\frac{4^2}{2}=8
-\]
+x = 4² / 2
+
+x = 8
+```
 
 ---
 
 # 11. Mean Proportional ⭐⭐⭐
 
+### Formula
+
 If
 
-\[
-a:x=x:b
-\]
+```text
+a : x = x : b
+```
 
 Then
 
-\[
-\boxed{x=\sqrt{ab}}
-\]
+```text
+x = √(ab)
+```
 
 ### Example
 
-\[
-4:x=x:9
-\]
+```text
+4 : x = x : 9
 
-\[
-x=\sqrt{4\times9}=6
-\]
+x = √(4 × 9)
+
+x = 6
+```
 
 ---
 
@@ -329,21 +319,21 @@ x=\sqrt{4\times9}=6
 
 If
 
-Old Ratio
+```text
+Old Ratio = a : b
+```
 
-\[
-a:b
-\]
+and the same quantity is added to both,
 
-and the **same quantity** is added to both,
+Then
 
-Then the new ratio becomes
+```text
+New Ratio
 
-\[
-\boxed{(ax+\text{Increase}) : (bx+\text{Increase})}
-\]
+= (ax + Increase) : (bx + Increase)
+```
 
-> Use this when the **same number (or equal years)** is added to both quantities.
+> Use this when the **same number** (or **equal years**) is added to both quantities.
 
 ---
 
@@ -351,29 +341,33 @@ Then the new ratio becomes
 
 If two quantities are mixed,
 
-\[
-\boxed{\text{Total}=\text{Part}_1+\text{Part}_2}
-\]
+```text
+Total = Part₁ + Part₂
+```
 
-Each quantity is calculated using its ratio part.
+The ratio remains
+
+```text
+Part₁ : Part₂
+```
 
 ### Example
 
+```text
 Milk : Water = 3 : 2
 
 Total = 25 L
 
 Milk
 
-\[
-25\times\frac{3}{5}=15\text{ L}
-\]
+= (25 × 3) / 5
+= 15 L
 
 Water
 
-\[
-25\times\frac{2}{5}=10\text{ L}
-\]
+= (25 × 2) / 5
+= 10 L
+```
 
 ---
 
@@ -381,89 +375,106 @@ Water
 
 ### 1.
 
-\[
-\boxed{A:B=a:b\Rightarrow A=ax,\;B=bx}
-\]
+```text
+A : B = a : b
+
+A = ax
+B = bx
+```
 
 ---
 
 ### 2.
 
-\[
-\boxed{x=\frac{\text{Total}}{\text{Sum of Ratio Parts}}}
-\]
+```text
+x = Total / (Sum of Ratio Parts)
+```
 
 ---
 
 ### 3.
 
-\[
-\boxed{\text{Part}=\frac{\text{Total}\times\text{Ratio Part}}{\text{Sum of Ratio Parts}}}
-\]
+```text
+Part = (Total × Ratio Part) / (Sum of Ratio Parts)
+```
 
 ---
 
 ### 4.
 
-\[
-\boxed{a:b=c:d\Rightarrow ad=bc}
-\]
+```text
+a : b = c : d
+
+ad = bc
+```
 
 ---
 
 ### 5.
 
-\[
-\boxed{\text{Compound Ratio}=ac:bd}
-\]
+```text
+Compound Ratio
+
+= (a × c) : (b × d)
+```
 
 ---
 
 ### 6.
 
-\[
-\boxed{\text{Direct Proportion}\Rightarrow\frac{A}{B}=\text{Constant}}
-\]
+```text
+Direct Proportion
+
+A / B = Constant
+```
 
 ---
 
 ### 7.
 
-\[
-\boxed{\text{Inverse Proportion}\Rightarrow A\times B=\text{Constant}}
-\]
+```text
+Inverse Proportion
+
+A × B = Constant
+```
 
 ---
 
 ### 8.
 
-\[
-\boxed{\text{Fourth Proportional}=\frac{b\times c}{a}}
-\]
+```text
+Fourth Proportional
+
+x = (b × c) / a
+```
 
 ---
 
 ### 9.
 
-\[
-\boxed{\text{Third Proportional}=\frac{b^2}{a}}
-\]
+```text
+Third Proportional
+
+x = b² / a
+```
 
 ---
 
 ### 10.
 
-\[
-\boxed{\text{Mean Proportional}=\sqrt{ab}}
-\]
+```text
+Mean Proportional
+
+x = √(ab)
+```
 
 ---
 
-## Quick Tips
+# Quick Tips
 
-- ✅ Always simplify ratios to their lowest form.
-- ✅ Represent unknown quantities as **ax, bx, cx...** whenever a ratio is given.
-- ✅ If the **total** is given, first calculate the **common multiplier (x)**.
-- ✅ In proportion questions, **cross multiplication (ad = bc)** solves most problems.
-- ✅ Identify whether the relation is **Direct** or **Inverse Proportion** before applying formulas.
-```
+- ✅ Always simplify the ratio to its lowest form.
+- ✅ Whenever a ratio is given, assume the values as **ax, bx, cx...**
+- ✅ If the total is given, first calculate the **common multiplier (x)**.
+- ✅ For most proportion questions, use **Cross Multiplication (ad = bc)**.
+- ✅ First identify whether the relation is **Direct** or **Inverse Proportion**, then apply the correct formula.
+- ✅ Read the question carefully to determine whether it asks for the **ratio**, **actual values**, or **division of a quantity**.
